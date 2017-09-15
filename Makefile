@@ -2,4 +2,5 @@ SHELL := /bin/bash
 
 
 dev-server:
-	jekyll serve
+	nvm use stable ;\
+	gulp

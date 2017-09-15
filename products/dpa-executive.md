@@ -9,7 +9,7 @@ excerpt: "Mickey first appeared animated in color in Parade of the Award Nominee
 categories: history
 tags:  mickey
 image:
-  feature: mickey-tv.jpg
+  feature: dpa-executive.jpg
   topPosition: -100px
 bgContrast: dark
 bgGradientOpacity: darker
