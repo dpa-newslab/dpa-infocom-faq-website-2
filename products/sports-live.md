@@ -2,11 +2,7 @@
 layout: infocom_product
 title:  "dpa webgraphics"
 homepage:  4
-date:   2014-11-28 01:00:00
-last_modified_at:  2014-11-28 01:00:00
-excerpt: "Mickey Mouse is a funny animal cartoon character and the official mascot of..."
-categories: history
-tags:  mickey
+product: webgraphics
 image:
   feature: dpa-webgraphics.jpg
   topPosition: -50px

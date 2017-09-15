@@ -2,11 +2,7 @@
 layout: infocom_product
 title:  "dpa Live"
 homepage: 2
-date:   1930-01-13 01:00:00
-date:   1930-01-13 01:00:00
-excerpt: "Mickey first appeared in comics after he had appeared in 15 commercially successful animated shorts and was easily recognized by ..."
-categories: history
-tags:  mickey
+product: dpa-live
 image:
   feature: dpa-live.jpg
   topPosition: -100px

@@ -3,11 +3,6 @@ layout: infocom_product
 title:  "dpa Weblines"
 homepage: 3
 product: weblines
-date:   2014-12-15 01:00:00
-last_modified_at:  2014-12-15 01:00:00
-excerpt: "Walter Elias Disney was an American entrepreneur, cartoonist, animator, voice actor, and film producer. As a prominent..."
-categories: history
-tags:  disney
 image:
   feature: dpa-weblines.jpg
   topPosition: 0px

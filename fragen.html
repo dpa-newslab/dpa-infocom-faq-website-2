@@ -1,0 +1,27 @@
+---
+layout: default
+title: Fragenliste
+---
+
+  <section class="section--last">
+    <div class="container container--content">
+      <div class="content-body">
+
+        {% assign items=site.pages | where: "layout","question" |  sort: 'product', 'last' %}
+        {% if items[0] %}
+        <h1>Fragenliste</h1>
+        {% endif %}
+        {% for item in items %}
+<table><tr><td style="width: 180px; overflow: hidden; vertical-align: top; padding-top: 30px; white-space: normal">
+<pre style="font-size: 10px; text-align: right; line-height: 12px; overflow: hidden; width: 160px">
+product: {{ item.product }}
+order: {{ item.order }}
+</pre>
+</td><td>
+        {% include question.html %}
+</td></table>
+        {% endfor %}
+
+      </div>
+    </div>
+  </section>

@@ -23,7 +23,7 @@ layout: infocom
     "></div>
     <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
       <div class="container">
-        <h2>{{ page.title }}</h2>
+        <h2 title="product-code {{ page.product }}">{{ page.title }}</h2>
     </div>
   </section>
   <section class="section--last">
@@ -37,10 +37,7 @@ layout: infocom
         <h5>Fragen & Antworten </h5>
         {% endif %}
         {% for item in items %}
-        <h4>{{ item.title }} </h4>
-        {{ item.content }}
-        {{ item | debug }}
-        <a href="{{ site.github.repository_url }}/blob/{{ site.github.source.branch}}{{item.path}}">Diese Frage auf GitHub Bearbeiten</a>
+        {% include question.html %}
         {% endfor %}
 
 
