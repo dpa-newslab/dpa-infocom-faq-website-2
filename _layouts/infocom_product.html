@@ -40,7 +40,7 @@ layout: infocom
         <h4>{{ item.title }} </h4>
         {{ item.content }}
         {{ item | debug }}
-        <a href="{{ site.github.repository.url }}/blob/{{ site.github.repository.branch}}{{item.path}}">Bearbeiten</a>
+        <a href="{{ site.github.repository_url }}/blob/{{ site.github.source.branch}}{{item.path}}">Diese Frage auf GitHub Bearbeiten</a>
         {% endfor %}
 
 
