@@ -4,4 +4,4 @@ title: "Frage 2?"
 product: executive,weblines
 ---
 
-Antwort 2
+Antwort für Weblines und Executive.
