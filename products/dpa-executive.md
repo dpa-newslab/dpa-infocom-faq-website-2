@@ -10,7 +10,7 @@ categories: history
 tags:  mickey
 image:
   feature: dpa-executive.jpg
-  topPosition: -100px
+  topPosition: -300px
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
