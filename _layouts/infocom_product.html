@@ -48,8 +48,27 @@ layout: infocom
       <div class="content-body">
 
         {{ content }}
+       
+        {% assign items=site.pages | where: "layout","question" |  where_exp: "item","item.product contains page.product" | sort: 'order', 'last' %}
+        {% if items %}
+        <h5>Fragen & Antworten </h5>
+        {% endif %}
+
+        {% for item in items %}
+
+        <h4>{{ item.title }} </h4>
+
+        {{ item.content }}
+
+
+        {% endfor %}
+
 
       </div>
+    </div>
+    <div>
+
+
     </div>
     <hr class="u-clearHr"/>
     <hr class="u-clearHr"/>
