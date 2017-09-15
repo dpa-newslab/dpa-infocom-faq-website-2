@@ -6,7 +6,7 @@ layout: infocom
     <div class="section-backgroundImage">
 
       {% if page.image.feature %}
-        <img class="post-featuredImage" src="{{ page.image.feature | prepend: site.baseurl_featured_img }}" style="
+        <img class="post-featuredImage" src="{{ page.image.feature | prepend: site.baseurl_featured_img | prepend: site.baseurl}}" style="
         {% if page.image.topPosition %}
           top:{{ page.image.topPosition }};
         {% endif %}
@@ -50,17 +50,14 @@ layout: infocom
         {{ content }}
        
         {% assign items=site.pages | where: "layout","question" |  where_exp: "item","item.product contains page.product" | sort: 'order', 'last' %}
-        {% if items %}
+        {% if items[0] %}
         <h5>Fragen & Antworten </h5>
         {% endif %}
-
         {% for item in items %}
-
         <h4>{{ item.title }} </h4>
-
         {{ item.content }}
-
-
+        {{ item | debug }}
+        <a href="{{ site.github.repository.url }}/blob/{{ site.github.repository.branch}}{{item.path}}">Bearbeiten</a>
         {% endfor %}
 
 
@@ -85,7 +82,7 @@ layout: infocom
         <div class="section-backgroundImage section-backgroundImage--previousPage">
           <img class="post-featuredImage"
           {% if page.previous.image.feature %}
-            src="{{ page.previous.image.feature | prepend: site.baseurl_featured_img }}"
+            src="{{ page.previous.image.feature | prepend: site.baseurl_featured_img | prepend: site.baseurl}}"
           {% endif %}
           style="top:0" alt="">
         </div>
