@@ -1983,7 +1983,7 @@ body {
 }
 
 .blockGroup-list li.block50 .postArticle-image {
-  padding-top: 50%;
+  padding-top: 61%;
 }
 
 .blockGroup-list li.block50 .postArticle-title {
@@ -1993,6 +1993,46 @@ body {
 
 @media (max-width: 767px) {
   .blockGroup-list li.block50 {
+    width: 100%;
+  }
+}
+
+.blockGroup-list li.block25 {
+  width: 25%;
+  margin-bottom: 1.5rem;
+}
+
+.blockGroup-list li.block25 .postArticle-image {
+  padding-top: 129.5%;
+}
+
+.blockGroup-list li.block25 .postArticle-title {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 767px) {
+  .blockGroup-list li.block25 {
+    width: 100%;
+  }
+}
+
+.blockGroup-list li.block75 {
+  width: 75%;
+  margin-bottom: 1.5rem;
+}
+
+.blockGroup-list li.block75 .postArticle-image {
+  padding-top: 40%;
+}
+
+.blockGroup-list li.block75 .postArticle-title {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 767px) {
+  .blockGroup-list li.block75 {
     width: 100%;
   }
 }

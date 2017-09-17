@@ -1,8 +1,8 @@
 ---
 layout: infocom-product
-title:  "dpa-Infocom Produkt 1"
+title:  "Produkt 1"
 homepage:  5
-teaserstyle: block50
+teaserstyle: block25
 product: produkt1
 image:
   feature: dpa-infocom-produkt-1.jpg

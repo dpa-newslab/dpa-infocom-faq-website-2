@@ -132,7 +132,7 @@
     margin-bottom: 1.5rem;
 
     .postArticle-image {
-      padding-top: 50%;
+      padding-top: 61%;
     }
 
     .postArticle-title {
@@ -144,6 +144,43 @@
       width: 100%;
     }
   }
+  
+  li.block25 {
+    width: 25%;
+    margin-bottom: 1.5rem;
+
+    .postArticle-image {
+      padding-top: 129.5%;
+    }
+
+    .postArticle-title {
+      font-size: $font-S;
+      font-family: $title-secondary-font;
+    }
+
+    @media (max-width: $screen-xs-max) {
+      width: 100%;
+    }
+  }
+
+  li.block75 {
+    width: 75%;
+    margin-bottom: 1.5rem;
+
+    .postArticle-image {
+      padding-top: 40%;
+    }
+
+    .postArticle-title {
+      font-size: $font-S;
+      font-family: $title-secondary-font;
+    }
+
+    @media (max-width: $screen-xs-max) {
+      width: 100%;
+    }
+  }
+
 
   li {
 
