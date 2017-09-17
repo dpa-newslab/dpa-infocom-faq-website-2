@@ -1,7 +1,7 @@
 <!-- Javascript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="{{ site.baseurl_javascripts | prepend: site.baseurl }}imagesloaded.pkgd.min.js"></script>
-
+<script src="{{ site.baseurl_javascripts | prepend: site.baseurl }}jquery.auto-complete.min.js"></script>
 {% if page.syntaxHighlighter %}
   <script src="{{ site.baseurl_javascripts  | prepend: site.baseurl }}prism.js"></script>
   <script src="{{ site.baseurl_javascripts  | prepend: site.baseurl }}plugins/prism-line-numbers.min.js"></script>
@@ -48,4 +48,36 @@
   $(document).scroll(function() {
     $('.modal-toggle-group').toggleClass('active', $(document).scrollTop() >= 300);
   });
+
+  
+  $.getJSON("{{ site.baseurl }}/search.json",function(data) {
+        var questions=data;
+        $('input[name="q"]').autoComplete({
+            minChars: 2,
+            source: function(term, suggest){
+                        term = term.toLowerCase();
+                        var matches = [];
+                        for (i=0; i<data.questions.length; i++) {
+                            var q=data.questions[i];
+                            if ((typeof q.title != "undefined") && (~q.title.toLowerCase().indexOf(term))) {
+                                matches.push(q);
+                            }
+                        }
+                        matches.push(data.default);
+                        suggest(matches);
+                    },
+            renderItem: function (item, search){
+                            search = search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+                            var re = new RegExp("(" + search.split(' ').join('|') + ")", "gi");
+                            return '<div class="autocomplete-suggestion" data-link="'+item.link+'" data-val="'+search+'">'+item.title.replace(re, "<b>$1</b>")+'</div>';
+                    },
+            onSelect: function(e, term, item){
+                        console.log('Item "'+item.data('link')+'" selected by '+(e.type == 'keydown' ? 'pressing enter' : 'mouse click')+'.');
+                        document.location="//"+document.location.host+item.data('link');
+                    }
+        });
+  })
+  
+
+
 </script>

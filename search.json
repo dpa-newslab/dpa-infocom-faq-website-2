@@ -5,11 +5,12 @@
 {% for product in products %}
 {% assign questions=site.pages | where: "layout","question" | where_exp: "item", "item.product contains product.product" | sort: "order", "last" %}
 {% for question in questions %}
-  { "title" : {{ question.title | prepend: product.title | jsonify}},
+  { "title" : {{ question.title | prepend: ": " | prepend: product.title | jsonify}},
     "link" : "{{ site.baseurl}}{{ product.url }}#{{ question.path | slugify }}",
     "content" : {{ question.content | strip_html | jsonify }}
   }, {% endfor %} {% endfor %}
-{}
-]
+{ }
+],
+"default" : { "title" : "Nichts gefunden? - Kontaktieren Sie uns!", "link" : "{{ site.baseurl }}/contact.html" }
 }
 
