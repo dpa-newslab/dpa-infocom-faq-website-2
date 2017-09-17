@@ -54,12 +54,16 @@
         var questions=data;
         $('input[name="q"]').autoComplete({
             minChars: 2,
+            menuClass: "suggestion-dropdown",
             source: function(term, suggest){
                         term = term.toLowerCase();
                         var matches = [];
                         for (i=0; i<data.questions.length; i++) {
                             var q=data.questions[i];
-                            if ((typeof q.title != "undefined") && (~q.title.toLowerCase().indexOf(term))) {
+                            if (
+                               ((typeof q.title != "undefined") && (~q.title.toLowerCase().indexOf(term))) || 
+                               ((typeof q.content != "undefined") && (~q.content.indexOf(term))) 
+                               ) {
                                 matches.push(q);
                             }
                         }

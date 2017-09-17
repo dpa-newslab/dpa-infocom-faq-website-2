@@ -7,7 +7,7 @@
 {% for question in questions %}
   { "title" : {{ question.title | prepend: ": " | prepend: product.title | jsonify}},
     "link" : "{{ site.baseurl}}{{ product.url }}#{{ question.path | slugify }}",
-    "content" : {{ question.content | strip_html | jsonify }}
+    "content" : {{ question.content | strip_html | downcase | jsonify }}
   }, {% endfor %} {% endfor %}
 { }
 ],

@@ -4,4 +4,4 @@ layout: intern
 ---
 
 
-Dieser Raum wurde absichtlich freigelassen. 
+Dieser Raum wurde absichtlich freigelassen!

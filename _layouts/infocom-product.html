@@ -31,18 +31,23 @@ layout: infocom
       <div class="content-body">
 
         {{ content }}
-        {% if site.github.repository_url %}
-        <a class="dpa" href="{{ site.github.repository_url }}/blob/{{ site.github.source.branch}}/{{page.path}}">Dieses Produkt auf GitHub bearbeiten.</a>
-        {% endif %}
-       
+
+        {% include edit-me.html item=page label="Dieses Produkt" %}
+
         {% assign items=site.pages | where: "layout","question" |  where_exp: "item","item.product contains page.product" | sort: 'order', 'last' %}
         {% if items[0] %}
         <h5>Fragen & Antworten </h5>
         {% endif %}
         {% for item in items %}
         {% include question.html %}
+        {% include edit-me.html label="Diese Frage" %}
         {% endfor %}
 
+        <hr>
+        <p>
+        <h5>{{ site.title }}</h5>
+        {% include searchbox.html %}
+        </p>
 
       </div>
     </div>
