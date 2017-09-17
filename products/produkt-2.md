@@ -1,5 +1,5 @@
 ---
-layout: infocom_product
+layout: infocom-product
 title:  "dpa-Infocom Produkt 2"
 homepage:  6
 product: produkt2

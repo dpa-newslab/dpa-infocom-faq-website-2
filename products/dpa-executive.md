@@ -1,5 +1,5 @@
 ---
-layout: infocom_product
+layout: infocom-product
 title:  "dpa Executive"
 product: executive
 homepage: 1

@@ -1,5 +1,5 @@
 ---
-layout: infocom_product
+layout: infocom-product
 title:  "dpa Live"
 homepage: 2
 product: dpa-live

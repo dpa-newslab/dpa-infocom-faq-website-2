@@ -1,5 +1,5 @@
 ---
-layout: infocom_product
+layout: infocom-product
 title:  "dpa webgraphics"
 homepage:  4
 product: webgraphics

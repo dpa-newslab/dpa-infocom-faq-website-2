@@ -31,6 +31,9 @@ layout: infocom
       <div class="content-body">
 
         {{ content }}
+        {% if site.github.repository_url %}
+        <a class="dpa" href="{{ site.github.repository_url }}/blob/{{ site.github.source.branch}}/{{item.path}}">Dieses Produkt auf GitHub bearbeiten.</a>
+        {% endif %}
        
         {% assign items=site.pages | where: "layout","question" |  where_exp: "item","item.product contains page.product" | sort: 'order', 'last' %}
         {% if items[0] %}

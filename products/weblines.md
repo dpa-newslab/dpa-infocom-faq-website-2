@@ -1,5 +1,5 @@
 ---
-layout: infocom_product
+layout: infocom-product
 title:  "dpa Weblines"
 homepage: 3
 product: weblines

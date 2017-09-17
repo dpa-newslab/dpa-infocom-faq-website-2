@@ -1,7 +1,8 @@
 ---
 layout: question
 title: "Frage 3"
-product: executive
+product: 
+  - executive
 order: 3
 ---
 

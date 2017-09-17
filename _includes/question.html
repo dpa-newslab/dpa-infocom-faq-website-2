@@ -1,4 +1,4 @@
-        <a href="#{{ item.path | slugify }}"><h4 id="{{ item.path | slugify }}" title="order: {{item.order}} - Produkte: {{ item.product }}">{{ item.title }}</h4></a>
+        <a href="#{{ item.path | slugify }}"><h4 id="{{ item.path | slugify }}" data-product="{{ item.product | jsonify | xml_escape  }}">{{ item.title }}</h4></a>
         <div>
         {{ item.content }}
         </div>
