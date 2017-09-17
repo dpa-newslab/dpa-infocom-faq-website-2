@@ -1,6 +1,16 @@
-/* site additions */ 
+/* site additions */
 
-.dpa, .dpa:link, .dpa:visited { color: #e0e0f0; text-decoration: none; border: 1px solid #e0e0e0; background-color: #ffffff; border-radius: 8px; font-size: 10px }
+.dpa, .dpa:link, .dpa:visited { 
+    color: #10c010; 
+    text-decoration: none; 
+    border: 1px solid #10f010; 
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    font-size: 15px; 
+    visibility: hidden;
+    }
+
+.dpa:hover { background-color: #e0e0e0; }
 
 .suggestion-dropdown .autocomplete-suggestion { 
 

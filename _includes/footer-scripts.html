@@ -42,6 +42,10 @@
     $('.shareButton').on("click", function(e) {
       $(this).sharePopup(e);
     });
+
+    if (document.location.hash == {{ site.internalhashcode | jsonify }}) {
+        $(".dpa").css("visibility","visible")
+    }
   });
 
   // Show modal toggle after scrolling 300px
