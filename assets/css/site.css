@@ -1,5 +1,4 @@
 /* site additions */ 
 
-.dpa { color: #e0e0f0; }
+.dpa, .dpa:link, dpa:visited { color: #e0e0f0; }
 
-.dpa a:link, .dpa:link { color: #fffff; background: transparent }

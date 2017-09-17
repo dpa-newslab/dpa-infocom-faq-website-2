@@ -2,6 +2,7 @@
 layout: infocom-product
 title:  "dpa Live"
 homepage: 2
+teaserstyle: block
 product: dpa-live
 image:
   feature: dpa-live.jpg

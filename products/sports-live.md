@@ -2,6 +2,7 @@
 layout: infocom-product
 title:  "dpa webgraphics"
 homepage:  4
+teaserstyle: block
 product: webgraphics
 image:
   feature: dpa-webgraphics.jpg

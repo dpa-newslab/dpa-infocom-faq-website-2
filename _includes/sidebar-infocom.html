@@ -1,5 +1,5 @@
 <nav role="navigation" class="sidebar sidebar--right">
-  <a href="{{site.baseurl}}/" class="textLogo textLogo--white textLogo--sidebar">{{ site.name }}</a>
+  <h2 class="sidebar-recentPosts"><a href="{{site.baseurl}}/">Home</a></a>
   <ul class="sidebar-recentPosts">
     {% assign items=site.pages | where_exp: "item","item.homepage>0" | sort: 'homepage', 'last' %}
     {% for post in items offset:0 limit: 10%}

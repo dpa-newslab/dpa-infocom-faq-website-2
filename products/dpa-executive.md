@@ -2,6 +2,7 @@
 layout: infocom-product
 title:  "dpa Executive"
 product: executive
+teaserstyle: block
 homepage: 1
 image:
   feature: dpa-executive.jpg

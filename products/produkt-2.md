@@ -2,6 +2,7 @@
 layout: infocom-product
 title:  "dpa-Infocom Produkt 2"
 homepage:  6
+teaserstyle: block50
 product: produkt2
 image:
   feature: dpa-infocom-produkt-2.jpg

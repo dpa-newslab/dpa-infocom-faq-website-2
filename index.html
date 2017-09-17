@@ -5,8 +5,8 @@ title: dpa-Infocom FAQ Website
 <section class="section--first section--frontpage">
   <div class="section-title">
     <div class="container">
-      <h1 class="textLogo textLogo--frontpage">
-        {{ site.name }}
+      <h1>
+        {{ site.title }}
       </h1>
       <div class="postMeta-wrapper postMeta-wrapper--frontpage">
         <ul class="postMeta">
@@ -24,7 +24,7 @@ title: dpa-Infocom FAQ Website
       <ul class="blockGroup-list">
         {% assign items=site.pages | where_exp: "item","item.homepage>0" | sort: 'homepage', 'last' %}
         {% for post in items %}
-          <li class="block">
+          <li class="{% if post.teaserstyle %}{{ post.teaserstyle }}{% else %}block{% endif %}">
             <div class="postArticle-wrapper">
               <article class="postArticle postArticle--short">
                 {% if post.image.feature %}

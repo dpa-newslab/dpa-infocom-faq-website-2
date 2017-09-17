@@ -2,6 +2,7 @@
 layout: infocom-product
 title:  "dpa Weblines"
 homepage: 3
+teaserstyle: block
 product: weblines
 image:
   feature: dpa-weblines.jpg

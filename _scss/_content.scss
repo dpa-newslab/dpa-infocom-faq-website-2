@@ -76,6 +76,7 @@
     }
   }
 
+/*
   li:nth-child(1).block {
     width: 100%;
 
@@ -95,6 +96,39 @@
   li:nth-child(2).block,
   li:nth-child(3).block {
     width: 50%;
+
+    .postArticle-image {
+      padding-top: 50%;
+    }
+
+    .postArticle-title {
+      font-size: $font-S;
+    }
+
+    @media (max-width: $screen-xs-max) {
+      width: 100%;
+    }
+  }
+*/
+  li.block100 {
+    width: 100%;
+
+    .postArticle-image {
+      padding-top: 30%;
+
+      @media (max-width: $screen-xs-max) {
+        padding-top: 50%;
+      }
+    }
+
+    .postArticle-title {
+      font-size: $font-S;
+    }
+  }
+
+  li.block50 {
+    width: 50%;
+    margin-bottom: 1.5rem;
 
     .postArticle-image {
       padding-top: 50%;

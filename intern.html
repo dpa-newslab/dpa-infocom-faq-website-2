@@ -9,12 +9,15 @@ title: Fragenliste
         {% assign products=site.pages | where: "layout","infocom-product" | sort: "homepage", "last" %}
         {% for product in products %}
         <h4>{{ product.title }}
-        <span style="font-size: 10px">homepage: {{ product.homepage }}  "<a href="{{ product.url | prepend: site.baseurl }}">{{ product.product }}</a>"</span></h4>
+        <span style="font-size: 10px">homepage: {{ product.homepage }} teaserstyle: {{ product.teaserstyle }} link: <a href="{{ product.url | prepend: site.baseurl }}">{{ product.product }}</a></span></h4>
+      {% if site.github.repository_url %}
+        <a class="dpa" href="{{ site.github.repository_url }}/blob/{{ site.github.source.branch}}/{{product.path}}">Dieses Produkt auf GitHub bearbeiten.</a>
+       {% endif %}
             {% assign items=site.pages | where: "layout","question" | where_exp: "item", "item.product contains product.product" | sort: "order", "last" %}
             {% for item in items %}
             <table><tr><td style="width: 180px; overflow: hidden; vertical-align: top; padding-top: 30px; white-space: normal">
 <pre style="white-space: normal; font-size: 10px; text-align: right; line-height: 12px; overflow: hidden; width: 160px">
-            {{ item.product | jsonify  }}
+            product: {{ item.product | jsonify  }}
             </pre>
             </td><td>
             {% include question.html %}
