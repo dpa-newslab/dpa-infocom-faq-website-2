@@ -10,9 +10,7 @@ title: Fragenliste
         {% for product in products %}
         <h4>{{ product.title }}
         <span style="font-size: 10px">homepage: {{ product.homepage }} teaserstyle: {{ product.teaserstyle }} link: <a href="{{ product.url | prepend: site.baseurl }}">{{ product.product }}</a></span></h4>
-      {% if site.github.repository_url %}
-        <a class="dpa" href="{{ site.github.repository_url }}/blob/{{ site.github.source.branch}}/{{product.path}}">Dieses Produkt auf GitHub bearbeiten.</a>
-       {% endif %}
+        {% include edit-me.html item=product label="Dieses Produkt" %}
             {% assign items=site.pages | where: "layout","question" | where_exp: "item", "item.product contains product.product" | sort: "order", "last" %}
             {% for item in items %}
             <table><tr><td style="width: 180px; overflow: hidden; vertical-align: top; padding-top: 30px; white-space: normal">
@@ -21,9 +19,13 @@ title: Fragenliste
             </pre>
             </td><td>
             {% include question.html %}
+            {% include edit-me.html item=item label="Diese Frage" %}
             </td></table>
             {% endfor %}
       {% endfor %}
       </div>
     </div>
   </section>
+  <script>
+  document.location.hash={{ site.internalhashcode | jsonify }};
+  </script>
