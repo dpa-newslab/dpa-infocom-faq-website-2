@@ -5,6 +5,9 @@ dev-server:
 	nvm use stable ;\
 	gulp
 
+scss:
+	gulp styles
+
 get-autocomplete:
 	{ \
 	bower install https://github.com/Pixabay/jQuery-autoComplete.git  ; \
