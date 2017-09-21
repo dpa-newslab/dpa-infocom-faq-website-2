@@ -1,6 +1,6 @@
 ---
 layout: infocom-product
-title:  "dpa Executive"
+title:  "dpa-Executive"
 product: executive
 teaserstyle: block
 homepage: 1
