@@ -5,7 +5,7 @@ product: executive
 teaserstyle: block
 homepage: 1
 image:
-  feature: dpa-executive.jpg
+  feature: #05 dpa-executiveApp.jpg
   topPosition: -300px
 bgContrast: dark
 bgGradientOpacity: darker
