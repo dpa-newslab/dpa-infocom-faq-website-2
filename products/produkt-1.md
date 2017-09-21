@@ -1,11 +1,11 @@
 ---
 layout: infocom-product
-title:  "Produkt 1"
+title:  "dpa-feedAPI"
 homepage:  5
 teaserstyle: block25
-product: produkt1
+product: dpa-feedAPI
 image:
-  feature: dpa-infocom-produkt-1.jpg
+  feature: 08dpa-feedApi.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker
