@@ -1,6 +1,6 @@
 ---
 layout: infocom-product
-title:  "dpa Live"
+title:  "dpa-Live"
 homepage: 2
 teaserstyle: block
 product: dpa-live
