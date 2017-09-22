@@ -2,7 +2,7 @@
 title: Anleitung
 layout: intern
 ---
-Die Aufmacher-Bilder ("featured") liegen im Ordner {{ site.baseurl_featured_img }}. Der Dateiname wird im Produkt-Artikel unter "image" festgelegt:
+Die Aufmacher-Bilder ("featured") liegen im Ordner [{{ site.baseurl_featured_img }}]({{ site.github.repository_url }}/blob/{{ site.github.source.branch}}/{{ site.baseurl_featured_image }}). Der Dateiname wird im Produkt-Artikel unter "image" festgelegt:
 
 ```
 ---
