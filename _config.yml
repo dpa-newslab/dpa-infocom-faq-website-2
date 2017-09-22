@@ -5,8 +5,8 @@
 # relative_permalinks: true
 
 # Setup
-timezone:            your timezone # eg. Asia/Kathmandu
-future: true
+timezone:            DE
+future:               true
 locale:              your locale language # eg. en_us
 name:				 "konsulat"
 title:               dpa Infocom FAQ
