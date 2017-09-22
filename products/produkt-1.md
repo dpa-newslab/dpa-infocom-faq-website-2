@@ -5,7 +5,7 @@ homepage:  5
 teaserstyle: block25
 product: dpa-feedAPI
 image:
-  feature: 08dpa-feedApi.jpg
+  feature: dpa-feedApi.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker
