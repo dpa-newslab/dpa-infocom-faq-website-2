@@ -6,6 +6,7 @@
 
 # Setup
 timezone:            your timezone # eg. Asia/Kathmandu
+future: true
 locale:              your locale language # eg. en_us
 name:				 "konsulat"
 title:               dpa Infocom FAQ
