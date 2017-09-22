@@ -2,7 +2,7 @@
 title: Anleitung
 layout: intern
 ---
-Die Aufmacher-Bilder ("featured") liegen im Ordner [{{ site.baseurl_featured_img }}]({{ site.github.repository_url }}/blob/{{ site.github.source.branch}}/{{ site.baseurl_featured_img }}). Der Dateiname wird im Produkt-Artikel unter "image" festgelegt:
+Die Aufmacher-Bilder ("featured") liegen im Ordner [{{ site.baseurl_featured_img }}]({{ site.github.repository_url }}/blob/{{ site.github.source.branch}}{{ site.baseurl_featured_img }}). Der Dateiname wird im Produkt-Artikel unter "image" festgelegt:
 
 ```
 ---
@@ -20,7 +20,7 @@ syntaxHighlighter: no
 ---
 ```
 
-Die Bilder für die Sidebare haben denselben Dateinamen und liegen im Ordner {{ site.baseurl_featured_thumbnail }}.
+Die Bilder für die Sidebars haben denselben Dateinamen und liegen im Ordner [{{ site.baseurl_featured_thumbnail }}]({{ site.github.repository_url }}/blob/{{ site.github.source.branch}}{{ site.baseurl_featured_thumbnail }}).
 
 Diese Verzeichnisse werden in der Datei [_config.yml](https://github.com/martinvirtel/dpa-infocom-faq-website-2/blob/master/_config.yml) festgelegt.
 
@@ -30,6 +30,4 @@ Diese Verzeichnisse werden in der Datei [_config.yml](https://github.com/martinv
  [Fragen-Liste](./fragen.html)
 
 
-## Links
 
-[Link-Text](http://dpa.de)
