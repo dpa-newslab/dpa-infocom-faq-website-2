@@ -1,5 +1,32 @@
 # Mickey
 
+
+Die Aufmacher-Bilder ("featured") liegen im Ordner {{ site.baseurl_featured_img }}. Der Dateiname wird im Produkt-Artikel unter "image" festgelegt:
+
+```
+---
+layout: infocom-product
+title:  "dpa-Live"
+homepage: 2
+teaserstyle: block
+product: dpa-live
+*image:*
+  *feature: 01dpa-Live.jpg*
+  *topPosition: -100px*
+bgContrast: dark
+bgGradientOpacity: darker
+syntaxHighlighter: no
+---
+```
+
+Die Bilder für die Sidebare haben denselben Dateinamen und liegen im Ordner {{ site.baseurl_featured_thumbnail }}.
+
+Diese Verzeichnisse werden in der Datei [_config.yml](https://github.com/martinvirtel/dpa-infocom-faq-website-2/blob/master/_config.yml) festgelegt.
+
+
+
+# Mickey
+
 Mickey is a minimal one-column, responsive theme for [Jekyll](http://jekyllrb.com).
 
 It's inspired by [Hyde](http://hyde.getpoole.com), [Medium](http://medium.com), and [Squarespace](http://squarespace.com).
