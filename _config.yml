@@ -16,7 +16,7 @@ rss:                 rss feed url
 baseurl:             '/dpa-infocom-faq-website-2'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/bilder/produktbilder/'
-baseurl_featured_thumbnail: '/bilder/produktbilder/thumbnails/'
+baseurl_featured_thumbnail: '/bilder/thumbnails/'
 baseurl_javascripts: '/assets/javascripts/'
 icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
 # disqus:              disqus_shortname # get it on https://disqus.com/admin/
