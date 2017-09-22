@@ -5,7 +5,7 @@ homepage: 2
 teaserstyle: block
 product: dpa-live
 image:
-  feature: 01dpa-Live.jpg
+  feature: dpa-Live.jpg
   topPosition: -100px
 bgContrast: dark
 bgGradientOpacity: darker
