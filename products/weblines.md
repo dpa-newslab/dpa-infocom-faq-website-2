@@ -11,7 +11,7 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
-As an animator and entrepreneur, Disney was particularly noted as a filmmaker and a popular showman, as well as an innovator in animation and theme park design. He and his staff created numerous famous fictional characters including Mickey Mouse, Donald Duck, and Goofy. Disney himself was the original voice for Mickey. During his lifetime, he won 22 Academy Awards and received four honorary Academy Awards from a total of 59 nominations, including a record of four in one year, giving him more Oscar awards and nominations than any other individual in history.
+As an ----animator and entrepreneur, Disney was particularly noted as a filmmaker and a popular showman, as well as an innovator in animation and theme park design. He and his staff created numerous famous fictional characters including Mickey Mouse, Donald Duck, and Goofy. Disney himself was the original voice for Mickey. During his lifetime, he won 22 Academy Awards and received four honorary Academy Awards from a total of 59 nominations, including a record of four in one year, giving him more Oscar awards and nominations than any other individual in history.
 
 Disney died from lung cancer on December 15, 1966, in Burbank, California. He left behind a vast legacy, including numerous animated shorts and feature films produced during his lifetime; the company, parks, and animation studio that bear his name; and the California Institute of the Arts (CalArts).
 
