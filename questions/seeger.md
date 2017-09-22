@@ -9,6 +9,10 @@ order: 4
 
 Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Zogen_einst_f%C3%BCnf_wilde_Schw%C3%A4ne)
 
+
+
+
+
 In einer Textfassung der deutschen Jugendbewegung von 1925 sind sowohl die Schwäne als auch die Burschen stolz und kühn und sowohl die Birken als auch die Mädchen schön und schlank. Dadurch wurde die Parallele zwischen Schwäne – Burschen und Birken – Mädchen noch stärker betont.[3] Weitere Fassungen liegen vor für: Ostpreußen 1915 (Plenzat),[4] aus dem Vertriebenenliederbuch 1958[5] und unter dem Titel Ziehen schon die wilden Schwäne ein stark abgewandelter Text von Heini Prüfer aus dem Antikriegsliederbuch 1983.[6]
 
 Der eingängige und mit seinen eindringlichen Wiederholungen nahezu lakonische Text thematisiert die einschneidenden Folgen des Krieges.
