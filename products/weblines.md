@@ -5,7 +5,7 @@ homepage: 3
 teaserstyle: block
 product: weblines
 image:
-  feature: 04dpa-weblines.jpg
+  feature: dpa-weblines.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
