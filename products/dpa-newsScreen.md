@@ -1,11 +1,11 @@
 ---
 layout: infocom-product
-title:  "dpa webgraphics"
-homepage:  4
+title:  "dpa-newsScreen"
+homepage:  5
 teaserstyle: block
-product: webgraphics
+product: dpa-newsScreen
 image:
-  feature: dpa-webgraphics.jpg
+  feature: dpa-newsScreen.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker

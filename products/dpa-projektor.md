@@ -1,11 +1,11 @@
 ---
 layout: infocom-product
-title:  "dpa-feedAPI"
-homepage:  3
+title:  "dpa-projektor"
+homepage:  5
 teaserstyle: block
-product: dpa-feedAPI
+product: dpa-projektor
 image:
-  feature: dpa-feedApi.jpg
+  feature: dpa-projektor.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker

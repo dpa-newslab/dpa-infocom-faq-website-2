@@ -1,11 +1,11 @@
 ---
 layout: infocom-product
-title:  "dpa-Infocom Produkt 2"
-homepage:  6
-teaserstyle: block50
-product: produkt2
+title:  "dpa-sportsLive"
+homepage:  8
+teaserstyle: block
+product: dpa-sportsLive
 image:
-  feature: dpa-infocom-produkt-2.jpg
+  feature: dpa-sportsLive.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker

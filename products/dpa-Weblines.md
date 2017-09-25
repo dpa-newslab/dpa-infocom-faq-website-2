@@ -1,11 +1,11 @@
 ---
 layout: infocom-product
-title:  "dpa-feedAPI"
-homepage:  3
+title:  "dpa-Weblines"
+homepage:  10
 teaserstyle: block
-product: dpa-feedAPI
+product: dpa-Weblines
 image:
-  feature: dpa-feedApi.jpg
+  feature: dpa-Weblines.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker

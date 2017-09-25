@@ -1,11 +1,11 @@
 ---
 layout: infocom-product
-title:  "dpa-feedAPI"
-homepage:  3
+title:  "dpa-schalttafel"
+homepage:  7
 teaserstyle: block
-product: dpa-feedAPI
+product: dpa-schalttafel
 image:
-  feature: dpa-feedApi.jpg
+  feature: dpa-schalttafel.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker

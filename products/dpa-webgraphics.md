@@ -1,11 +1,11 @@
 ---
 layout: infocom-product
-title:  "Produkt 3"
-homepage:  7
-teaserstyle: block25
-product: produkt3
+title:  "dpa-webgraphics"
+homepage:  9
+teaserstyle: block
+product: webgraphics
 image:
-  feature: dpa-infocom-produkt-3.jpg
+  feature: dpa-webgraphics.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker
