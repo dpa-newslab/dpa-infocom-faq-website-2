@@ -5,7 +5,7 @@ homepage:  9
 teaserstyle: block
 product: webgraphics
 image:
-  feature: dpa-webgraphics.jpg
+  feature: dpa-Webgraphics.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker

@@ -5,7 +5,7 @@ homepage:  7
 teaserstyle: block
 product: dpa-schalttafel
 image:
-  feature: dpa-schalttafel.jpg
+  feature: dpa-Schalttafel.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker

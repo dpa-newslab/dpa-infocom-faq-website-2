@@ -5,7 +5,7 @@ homepage:  5
 teaserstyle: block
 product: dpa-projektor
 image:
-  feature: dpa-projektor.jpg
+  feature: dpa-Projektor.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker
