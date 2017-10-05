@@ -232,7 +232,7 @@ th {
 /* Setup */
 html {
   /* Change default typefaces here */
-  font-family: "Source Serif Pro", serif;
+  font-family: "Didact Gothic", serif;
   font-size: 137.5%;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.8);
@@ -324,7 +324,7 @@ h4,
 h5,
 h6 {
   /* Change heading typefaces here */
-  font-family: "PT Sans", sans-serif;
+  font-family: "Questrial", sans-serif;
   margin-top: 1.5rem;
   margin-bottom: 0;
   line-height: 1.5rem;
