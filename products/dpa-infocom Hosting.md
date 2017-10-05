@@ -11,5 +11,5 @@ bgContrast: dark
 bgGradientOpacity: darker
 ---
 
-Ob Bundestagswahl, Landtagswahl oder eine Abstimmung in Europa - dpa liefert Ihnen zu allen wichtigen Wahlen ein Live-Datencenter. Nutzen Sie aktuelle Umfragen, Prognosen, Hochrechnungen und weitere Wahlergebnisse in den Live-Grafiken zur Information auf Ihrer Websites in Ihrem Intranet oder zur Veröffentlichung in Broschüren.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
