@@ -3,12 +3,14 @@ layout: infocom-product
 title:  "dpa-Executive"
 product: executive
 teaserstyle: block
-homepage: 1
+homepage: 2
 image:
   feature: dpa-executiveApp.jpg
-  topPosition: -300px
+  topPosition: -200px
 bgContrast: dark
 bgGradientOpacity: darker
 ---
 
-In the 1950s, Mickeys became more known for his appearances on television, particularly with The Mickey Mouse Club. Many of his theatrical cartoon shorts were rereleased on television series such as Ink & Paint Club, various forms of the Walt Disney anthology television series, and on home video. Mickey returned to theatrical animation in 1983 with Mickey's Christmas Carol, an adaptation of Charles Dickens' A Christmas Carol in which Mickey played Bob Cratchit. This was followed up in 1990 with The Prince and the Pauper.
+Mit dpa-Executive steht Ihnen ab sofort die Nachrichtenwelt der dpa jederzeit und überall zur Verfügung.
+
+Sie erhalten neben einem 24-Stunden-Newsticker auch alle aktuellen Eilmeldungen als Push-Mitteilungen, die TopNews des Tages und das Wichtigste unter anderem aus der Wirtschaft und der Politik. Die customized Variante bietet Kommunikationsprofis einen zeitgemäßen mobilen Zugang zur dpa-Welt. Individuell ausgeformt wird die „dpa-ExecutiveApp“ zu einer modernen und leistungsstarken Plattform für die Management- und Mitarbeiterinformation. Wo immer und wann immer Sie unterwegs sind, hält die App Sie über genau die Nachrichten auf dem Laufenden, die für Sie relevant sind: Zum Beispiel über Ihr Unternehmen, Ihre Branche und Ihre Wettbewerber oder über alle Eil-Meldungen der dpa-Redaktion.

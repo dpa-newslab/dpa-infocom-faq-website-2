@@ -9,8 +9,8 @@
 timezone:            DE
 future:               true
 locale:              your locale language # eg. en_us
-name:				 "konsulat"
-title:               dpa Infocom FAQ
+name:				         "konsulat"
+title:               Produkt-Konsulat
 tagline:             'tagline'
 description:         'description'
 url:                 site url

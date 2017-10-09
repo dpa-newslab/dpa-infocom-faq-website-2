@@ -1,5 +1,5 @@
 ---
-layout: infocom
+layout: intern
 title: Fragenliste
 ---
 
@@ -19,6 +19,7 @@ title: Fragenliste
             </pre>
             </td><td>
             {% include question.html %}
+            <span style="font-size: 50%"><a href="{{ site.baseurl}}{{ product.url }}#{{ item.path | slugify }}">Frage bei {{ product.title }}</a></span>
             {% include edit-me.html item=item label="Diese Frage" %}
             </td></table>
             {% endfor %}
