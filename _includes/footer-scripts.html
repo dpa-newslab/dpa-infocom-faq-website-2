@@ -2,6 +2,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="{{ site.baseurl_javascripts | prepend: site.baseurl }}imagesloaded.pkgd.min.js"></script>
 <script src="{{ site.baseurl_javascripts | prepend: site.baseurl }}jquery.auto-complete.min.js"></script>
+<script src="{{ site.baseurl_javascripts | prepend: site.baseurl }}jquery.accordion.js"></script>
 {% if page.syntaxHighlighter %}
   <script src="{{ site.baseurl_javascripts  | prepend: site.baseurl }}prism.js"></script>
   <script src="{{ site.baseurl_javascripts  | prepend: site.baseurl }}plugins/prism-line-numbers.min.js"></script>
@@ -46,6 +47,12 @@
     if (document.location.hash == {{ site.internalhashcode | jsonify }}) {
         $(".dpa").css("visibility","visible")
     }
+
+
+    $('.accordion').accordion({
+        "transitionSpeed": 400,
+        "controlElement" : 'h4.question-headline'
+    });
   });
 
   // Show modal toggle after scrolling 300px

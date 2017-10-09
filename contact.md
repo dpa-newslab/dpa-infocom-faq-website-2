@@ -3,14 +3,5 @@ title: Kontaktieren Sie uns
 layout: intern
 ---
 
-<pre>
+{% include contact_details.html %}
 
-service (at) dpa-info.com 
-
-oder 
-
-dpa-Infocom-Servicedesk
-
-040 - 4113 - 31000
-
-</pre>
